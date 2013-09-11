@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.nav {
+	margin-top: 0;
+	margin-right: 20px;
+	list-style-type: none;
+	position: relative;
+}
+#navcallout {
+	float: left;
+	position: absolute;
+	font-family: Verdana;
+	margin-left: 40px;
+	margin-top: 31px;
+	color: #909192;
+	font-size: 12px;
+	display: inline;
+	margin-right: 0px;
+}
+.nav li {
+	display: inline;
+	font-family: Verdana;
+	font-size: 12px;
+	margin-right: 25px;
+	margin-top: 30px;
+	float: right;
+}
+#signin {
+	color: #3eaaf6;
+	margin-right: 
+}
+a#signin:hover {
+	color: #386097;
+}
+.nav li a {
+	text-decoration: none;
+	color: #386097;
+}
+.nav li a:hover {
+	color: #3eaaf6;
+}
+.logosection {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 85px;
+	padding-bottom: 30px;
+}
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 164px;
+	height: 39px;
+	padding-bottom: 40px;
+
+}
+
+.logosection h1 {
+	font-weight: bold;
+	font-size: 38px;
+	font-family: Georgia, serif;
+	text-align: center;
+	line-height: 130%;
+	letter-spacing: -1px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+
+}	
+.logosection h2 {
+	font-weight: normal;
+	font-size: 19px;
+	margin-top: 20px;
+	font-family: Crimson, Times New, Georgia, serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}	
+h1 {
+	font-weight: bold;
+	font-size: 38px;
+	font-family: Georgia, serif;
+	text-align: center;
+	line-height: 130%;
+	letter-spacing: -1px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.boxsection {
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	display: block;
+	width: 800px;
+	text-align: center;
+}
+.box {
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #999;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #f0f3f5;
+	width: 160px;
+	padding: 15px;
+	display: inline-block;
+	background: -moz-linear-gradient(#FFF, #e4e4e4);
+	background: -ms-linear-gradient(#FFF, #e4e4e4);
+	background: -o-linear-gradient(#FFF, #e4e4e4);
+	background: -webkit-linear-gradient(#FFF, #e4e4e4);
+	box-shadow: 1px 1px 1px #e7e7e7;
+	margin-right: 25px;
+	margin-left: 25px;
+
+}
+.basecampimage {
+	margin-top: 10px;
+	margin-left: 28px;
+	width: 105px;
+	height: 88px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 19px;
+	width: 160px;
+	display: inline-block;
+	color: #32588d;
+	margin-top: 12px;
+	font-family: Verdana;
+	text-align: center;
+
+	margin-left: 10px;
+}
+span {
+	text-decoration: underline; 
+}
+sup {
+	vertical-align: super;
+	color: #999999;
+	font-size: 10px;
+	text-decoration: none;
+
+	display: inline;
+	margin-left: -6px;
+}
+h4 {
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	color: #c80e23;
+	margin-top: 15px;
+	font-family: Verdana;
+	text-align: center;
+	margin-left: 10px;
+
+}
+.boxtext {
+	font-weight: normal;
+	font-size: 14px;
+	display: inline-block;
+	color: #000000;
+	margin-top: 15px;
+	font-family: Verdana;
+	text-align: center;
+
+	line-height: 140%;
+}
+.highriseimage {
+	margin-top: 10px;
+	margin-left: 28px;
+	width: 105px;
+	height: 88px;
+}
+.campfireimage {
+	margin-top: 10px;
+	margin-left: 28px;
+	width: 105px;
+	height: 88px;
+}
+.asteriskssection {
+	display: block;
+
+}
+.asterisks {
+	color: #e4e4e4;
+	font-family: Arial;
+	font-size: 42px;
+	font-weight: normal;
+	width: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.arrow {
+	width: 69px;
+	height: 36px;
+	display: inline-block;
+
+	margin-left: 128px;
+	margin-top: -35px;
+
+}
+.bottom {
+	position: relative;
+	width: 900px;
+	text-align: center;
+	margin: 0 auto;
+}
+.picsection {
+	position: absolute;
+	margin-left: -100px;
+	margin-top: -20px;
+}
+.pics {
+	background: url('images/customerpics2.png')no-repeat 0 0;
+	display: block;
+	width: 143px;
+	height: 104px;
+
+	margin-top: -99px;
+	margin-left: 5px;
+
+}
+.customerstext {
+	display: block;
+	font-family: Verdana;
+	font-size: 10px;
+
+	margin-left: -30px;
+}
+div p a {
+	color: #386097;
+	text-decoration: none;
+}
+div p a:hover {
+	color: #3eaaf6;
+	text-decoration: underline;
+}
+a.pics:hover {
+	background: url('images/customerpics2.png') no-repeat 0 bottom;
+}
