@@ -99,24 +99,7 @@ a#signin:hover {
 	height: 39px;
 	padding-bottom: 20px;
 }
-<<<<<<< HEAD
-
-.h1 {
-	font-weight: bold;
-	font-size: 38px;
-	font-family: Georgia, serif;
-	text-align: center;
-	line-height: 130%;
-	letter-spacing: -1px;
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-.h1box1 {
-=======
 .logosection h1 {
->>>>>>> master
 	font-weight: bold;
 	font-size: 38px;
 	font-family: Georgia, serif;
@@ -127,7 +110,7 @@ a#signin:hover {
 	margin-left: auto;
 	margin-right: auto;
 }	
-.h2 {
+.logosection h2 {
 	font-weight: normal;
 	font-size: 19px;
 	margin-top: 20px;
@@ -135,16 +118,9 @@ a#signin:hover {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-<<<<<<< HEAD
-
-}	
-.h2box2 {
-	font-weight: bold;
-=======
 }
 h1:nth-child(3){
   	font-weight: bold;
->>>>>>> master
 	font-size: 38px;
 	font-family: Georgia, serif;
 	text-align: center;
@@ -153,9 +129,6 @@ h1:nth-child(3){
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-<<<<<<< HEAD
-
-=======
 	display:none;
 }
 h1:nth-child(7){
@@ -212,7 +185,6 @@ img:nth-child(12) {
 .spanunderline {
 	text-decoration: underline; 
 	color: #32588d;
->>>>>>> master
 }	
 h2:nth-child(5) {
 	font-weight: normal;
@@ -270,49 +242,7 @@ h1 {
 	width: 900px;
 	text-align: center;
 }
-.box1 {
-	border: 1px solid #dedede;
-	border-radius: 4px;
-	text-decoration: none;
-	color: #999;
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	background-color: #f0f3f5;
-	width: 160px;
-	padding: 15px;
-	display: inline-block;
-	background: -moz-linear-gradient(#FFF, #e4e4e4);
-	background: -ms-linear-gradient(#FFF, #e4e4e4);
-	background: -o-linear-gradient(#FFF, #e4e4e4);
-	background: -webkit-linear-gradient(#FFF, #e4e4e4);
-	box-shadow: 1px 1px 1px #e7e7e7;
-	margin-right: 25px;
-	margin-left: 25px;
-
-}
-.box2 {
-	border: 1px solid #dedede;
-	border-radius: 4px;
-	text-decoration: none;
-	color: #999;
-	font-family: Arial;
-	font-size: 11px;
-	font-weight: bold;
-	background-color: #f0f3f5;
-	width: 160px;
-	padding: 15px;
-	display: inline-block;
-	background: -moz-linear-gradient(#FFF, #e4e4e4);
-	background: -ms-linear-gradient(#FFF, #e4e4e4);
-	background: -o-linear-gradient(#FFF, #e4e4e4);
-	background: -webkit-linear-gradient(#FFF, #e4e4e4);
-	box-shadow: 1px 1px 1px #e7e7e7;
-	margin-right: 25px;
-	margin-left: 25px;
-
-}
-.box3 {
+.box {
 	border: 1px solid #dedede;
 	border-radius: 4px;
 	text-decoration: none;
