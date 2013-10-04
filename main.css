@@ -87,6 +87,9 @@ a#signin:hover {
 	margin-right: auto;
 	padding-top: 85px;
 	padding-bottom: 30px;
+	height: 200px;
+	position: relative;
+	width: 900px;
 }
 #logo {
 	margin-left: auto;
@@ -94,9 +97,9 @@ a#signin:hover {
 	display: block;
 	width: 164px;
 	height: 39px;
-	padding-bottom: 40px;
-
+	padding-bottom: 20px;
 }
+<<<<<<< HEAD
 
 .h1 {
 	font-weight: bold;
@@ -111,6 +114,9 @@ a#signin:hover {
 
 }
 .h1box1 {
+=======
+.logosection h1 {
+>>>>>>> master
 	font-weight: bold;
 	font-size: 38px;
 	font-family: Georgia, serif;
@@ -120,7 +126,6 @@ a#signin:hover {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-
 }	
 .h2 {
 	font-weight: normal;
@@ -130,10 +135,16 @@ a#signin:hover {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+<<<<<<< HEAD
 
 }	
 .h2box2 {
 	font-weight: bold;
+=======
+}
+h1:nth-child(3){
+  	font-weight: bold;
+>>>>>>> master
 	font-size: 38px;
 	font-family: Georgia, serif;
 	text-align: center;
@@ -142,8 +153,103 @@ a#signin:hover {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
+<<<<<<< HEAD
 
+=======
+	display:none;
+}
+h1:nth-child(7){
+  	font-weight: bold;
+	font-size: 38px;
+	font-family: Georgia, serif;
+	text-align: center;
+	line-height: 130%;
+	letter-spacing: -1px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+}
+h1:nth-child(10){
+  	font-weight: bold;
+	font-size: 38px;
+	font-family: Georgia, serif;
+	text-align: center;
+	line-height: 130%;
+	letter-spacing: -1px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+}
+img:nth-child(6) {
+	left: 260px;
+	top: 10px;
+	display: block;
+	padding-bottom: 20px;
+	display: none;
+	position: relative;
+	clear: both;
+}
+img:nth-child(9) {
+	left: 500px;
+	top: 10px;
+	display: block;
+	padding-bottom: 20px;
+	display:none;
+	clear: both;
+	position: relative;
+}
+img:nth-child(12) {
+	left: 600px;
+	top: 10px;
+	display: block;
+	padding-bottom: 20px;
+	display:none;
+	clear: both;
+	position: relative;
+}
+.spanunderline {
+	text-decoration: underline; 
+	color: #32588d;
+>>>>>>> master
 }	
+h2:nth-child(5) {
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 20px;
+	font-family: Crimson, Times New, Georgia, serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+	width: 900px;
+	line-height: 130%;
+}
+h2:nth-child(8) {
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 20px;
+	font-family: Crimson, Times New, Georgia, serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+	width: 900px;
+	line-height: 130%;
+}
+h2:nth-child(11) {
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 20px;
+	font-family: Crimson, Times New, Georgia, serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+	width: 900px;
+	line-height: 130%;
+}
 h1 {
 	font-weight: bold;
 	font-size: 38px;
@@ -154,16 +260,14 @@ h1 {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 .boxsection {
-
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
 	margin-bottom: 40px;
 	display: block;
-	width: 800px;
+	width: 900px;
 	text-align: center;
 }
 .box1 {
@@ -227,7 +331,6 @@ h1 {
 	box-shadow: 1px 1px 1px #e7e7e7;
 	margin-right: 25px;
 	margin-left: 25px;
-
 }
 .basecampimage {
 	margin-top: 10px;
@@ -244,7 +347,6 @@ h3 {
 	margin-top: 12px;
 	font-family: Verdana;
 	text-align: center;
-
 	margin-left: 10px;
 }
 span {
@@ -255,7 +357,6 @@ sup {
 	color: #999999;
 	font-size: 10px;
 	text-decoration: none;
-
 	display: inline;
 	margin-left: -6px;
 }
@@ -268,7 +369,6 @@ h4 {
 	font-family: Verdana;
 	text-align: center;
 	margin-left: 10px;
-
 }
 .boxtext {
 	font-weight: normal;
@@ -278,7 +378,6 @@ h4 {
 	margin-top: 15px;
 	font-family: Verdana;
 	text-align: center;
-
 	line-height: 140%;
 }
 .highriseimage {
@@ -295,7 +394,6 @@ h4 {
 }
 .asteriskssection {
 	display: block;
-
 }
 .asterisks {
 	color: #e4e4e4;
@@ -312,10 +410,8 @@ h4 {
 	width: 69px;
 	height: 36px;
 	display: inline-block;
-
 	margin-left: 128px;
 	margin-top: -35px;
-
 }
 .bottom {
 	position: relative;
@@ -333,16 +429,13 @@ h4 {
 	display: block;
 	width: 143px;
 	height: 104px;
-
 	margin-top: -99px;
 	margin-left: 5px;
-
 }
 .customerstext {
 	display: block;
 	font-family: Verdana;
 	font-size: 10px;
-
 	margin-left: -30px;
 }
 div p a {
